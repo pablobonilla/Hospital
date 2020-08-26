@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <BOModel>
+    <Class Name="Hospital.Module.BusinessObjects.centroSalud" Caption="Centro de Salud" />
+    <Class Name="Hospital.Module.BusinessObjects.medicos" Caption="Médicos" />
+    <Class Name="Hospital.Module.BusinessObjects.pacientes" Caption="Pacientes" />
+  </BOModel>
+  <Views>
+    <DetailView Id="medicos_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="medicos">
+              <LayoutGroup Id="Auto8cb6410c-7d1b-4659-9972-1765275688f0" Caption="" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="pacientes_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="pacientes">
+              <LayoutGroup Id="pacientes_col2" Caption="pacientes_col2" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

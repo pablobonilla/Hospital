@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <BOModel>
+    <Class Name="Hospital.Module.BusinessObjects.consultas" Caption="Consulta" />
+  </BOModel>
+  <NavigationItems ShowImages="True" StartupNavigationItem="consultas_ListView">
+    <Items>
+      <Item Id="Default">
+        <Items>
+          <Item Id="centroSalud_ListView" Caption="Centro de Salud" />
+          <Item Id="consultas_ListView" ImageName="ReviewAllowUsersToEditRanges_32x32" Caption="Consulta" />
+          <Item Id="medicos_ListView" Caption="Médicos" ImageName="BO_Position_32x32" />
+          <Item Id="MyDetails" Visible="False" />
+          <Item Id="pacientes_ListView" Caption="Pacientes" ImageName="BOPerson_32x32" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <SchemaModules>
+    <SchemaModule Name="CloneObjectModule" Version="19.2.5.0" IsNewNode="True" />
+    <SchemaModule Name="SystemAspNetModule" Version="19.2.5.0" IsNewNode="True" />
+    <SchemaModule Name="SystemModule" Version="19.2.5.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <DetailView Id="consultas_DetailView" Caption="Consulta" />
+    <DetailView Id="pacientes_DetailView" Caption="" />
+  </Views>
+</Application>
