@@ -22,7 +22,14 @@
     <SchemaModule Name="SystemModule" Version="19.2.5.0" IsNewNode="True" />
   </SchemaModules>
   <Views>
+    <DetailView Id="centroSalud_DetailView" Caption="Centro de Salud" />
+    <ListView Id="centroSalud_ListView" Caption="Centro de Salud" />
+    <ListView Id="centroSalud_LookupListView" Caption="Centro de Salud" />
     <DetailView Id="consultas_DetailView" Caption="Consulta" />
+    <ListView Id="consultas_ListView" Caption="Consultas" />
+    <DetailView Id="medicos_DetailView" Caption="Médicos" />
+    <ListView Id="medicos_ListView" Caption="Médicos" />
     <DetailView Id="pacientes_DetailView" Caption="" />
+    <ListView Id="pacientes_ListView" Caption="Pacientes" />
   </Views>
 </Application>
