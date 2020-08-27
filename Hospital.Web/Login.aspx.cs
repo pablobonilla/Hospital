@@ -9,4 +9,5 @@ public partial class LoginPage : BaseXafPage {
             return Content;
         }
     }
+    
 }

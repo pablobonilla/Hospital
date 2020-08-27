@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Application Title="Hospital">
+<Application Title="Hospital" Logo="hospital">
   <BOModel>
     <Class Name="Hospital.Module.BusinessObjects.centroSalud" ImageName="BO_Organization" />
     <Class Name="Hospital.Module.BusinessObjects.pacientes" ImageName="BO_Person" />
@@ -45,12 +45,11 @@
               <LayoutGroup Id="pacientes_col1" RelativeSize="50">
                 <LayoutItem Id="cedula" RelativeSize="6.262230919765166" />
                 <LayoutItem Id="nombres" RelativeSize="4.6966731898238745" Index="1" />
-                <LayoutItem Id="apellidos" ViewItem="apellidos" Index="2" RelativeSize="4.6966731898238745" IsNewNode="True" />
+                <LayoutItem Id="apellidos" Index="2" RelativeSize="4.6966731898238745" ViewItem="apellidos" IsNewNode="True" />
                 <LayoutItem Id="telefono" RelativeSize="84.344422700587089" Index="3" />
               </LayoutGroup>
               <LayoutGroup Id="pacientes_col2" RelativeSize="50">
                 <LayoutItem Id="NombreCompleto" RelativeSize="100" Index="0" />
-                <LayoutItem Id="apellidos" RelativeSize="6.262230919765166" Removed="True" />
               </LayoutGroup>
             </LayoutGroup>
           </LayoutGroup>

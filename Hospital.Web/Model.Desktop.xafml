@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Application>
+<Application Title="Centro de Salud" Logo="HospitalPNG">
   <BOModel>
     <Class Name="Hospital.Module.BusinessObjects.consultas" Caption="Consulta" />
   </BOModel>
