@@ -9,6 +9,7 @@
         <Items>
           <Item Id="centroSalud_ListView" Caption="Centro de Salud" />
           <Item Id="consultas_ListView" ImageName="ReviewAllowUsersToEditRanges_32x32" Caption="Consulta" />
+          <Item Id="internamientos_ListView" ImageName="DevAV\NewItem_32x32" Caption="Internamientos" />
           <Item Id="medicos_ListView" Caption="Médicos" ImageName="BO_Position_32x32" />
           <Item Id="MyDetails" Visible="False" />
           <Item Id="pacientes_ListView" Caption="Pacientes" ImageName="BOPerson_32x32" />
@@ -27,6 +28,28 @@
     <ListView Id="centroSalud_LookupListView" Caption="Centro de Salud" />
     <DetailView Id="consultas_DetailView" Caption="Consulta" />
     <ListView Id="consultas_ListView" Caption="Consultas" />
+    <DetailView Id="internamientos_DetailView" Caption="Internamientos">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="internamientos" RelativeSize="100">
+              <LayoutGroup Id="internamientos_col1" RelativeSize="49.8876404494382">
+                <LayoutItem Id="pacientes" RelativeSize="6.9716775599128544" />
+                <LayoutItem Id="motivo" RelativeSize="5.2287581699346406" />
+                <LayoutItem Id="seguimiento" SizeConstraintsType="Default" MinSize="176, 32" RelativeSize="87.7995642701525" />
+              </LayoutGroup>
+              <LayoutGroup Id="internamientos_col2" RelativeSize="50.1123595505618">
+                <LayoutItem Id="_habitacion" RelativeSize="6.9716775599128544" />
+                <LayoutItem Id="fecha" RelativeSize="5.2287581699346406" />
+                <LayoutItem Id="fecha2" RelativeSize="87.7995642701525" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="internamientos_ListView" Caption="Internamientos" />
+    <ListView Id="internamientos_LookupListView" Caption="Internamientos" />
     <DetailView Id="medicos_DetailView" Caption="Médicos" />
     <ListView Id="medicos_ListView" Caption="Médicos" />
     <DetailView Id="pacientes_DetailView" Caption="" />

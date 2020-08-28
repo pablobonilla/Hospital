@@ -140,6 +140,7 @@
     <Compile Include="BusinessObjects\centroSalud.cs" />
     <Compile Include="BusinessObjects\consultas.cs" />
     <Compile Include="BusinessObjects\customBaseObject.cs" />
+    <Compile Include="BusinessObjects\internamientos.cs" />
     <Compile Include="BusinessObjects\medicos.cs" />
     <Compile Include="BusinessObjects\pacientes.cs" />
     <Compile Include="DatabaseUpdate\Updater.cs" />

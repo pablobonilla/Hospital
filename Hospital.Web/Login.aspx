@@ -39,7 +39,7 @@
 
 </head>
 <%--<body class="Dialog" style="background-image: url(images/banner.jpg); background-position: center top; background-repeat: no-repeat; -moz-background-size: cover; -o-background-size: cover; -webkit-background-size: cover; min-height: 750px;">--%>
-    <body class="Dialog" style="background-position: center top; background-repeat: no-repeat; -moz-background-size: cover; -o-background-size: cover; -webkit-background-size: cover; min-height: 750px;">
+    <body class="Dialog" style="background-color: cadetblue; center top; background-repeat: no-repeat; -moz-background-size: cover; -o-background-size: cover; -webkit-background-size: cover; min-height: 750px;">
     <div id="PageContent" class="PageContent DialogPageContent">
         <form id="form1" runat="server">
         <cc4:ASPxProgressControl ID="ProgressControl" runat="server" />
